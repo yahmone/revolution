@@ -1,12 +1,8 @@
 import turtle
-s = turtle.Screen()
 t = turtle.Turtle()
 t.color("red")
 t.penup()
-t.bk(500)
-t.lt(90)
-t.fd(281.25)
-t.rt(90)
+t.goto(-500, 281.25)
 t.pendown() 
 t.begin_fill()
 t.fd(1000)
